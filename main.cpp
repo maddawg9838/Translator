@@ -31,14 +31,32 @@ int main()
 
 void ToString()
 {
-  string message, newMessage;
+  int size;
   
+  cout << "How long is your message?" << endl;
+  cin >> size;
+
+    int message[size];
+    char newMessage[size];
+
   cout << "What is your message?" << endl;
-  getline(cin, message);
+
+for (int i = 0; i < size; i++)
+  {
+    cin >> message[i];
+    newMessage[i] = char(message[i]);
+  }
   
-  newMessage = to_string(message);
-  
-  cout << "Your message: " << message << " in ASCII is the following: " << newMessage;  
+  cout << "Your message: ";
+  for (int i = 0; i < size; i++)
+  {
+    cout << message[i];
+  }
+    cout << " in ASCII is the following: ";
+     for (int i = 0; i < size; i++)
+  {
+    cout << newMessage[i];
+  }  
 }
 
 void ToASCII()
@@ -52,4 +70,3 @@ void ToASCII()
   
   cout << "Your message: " << message << " in ASCII is the following: " << newMessage;  
 }
-
