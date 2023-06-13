@@ -3,6 +3,9 @@
 
 using namespace std;
 
+// Completed: 6-13-23
+// Author: Maddawg9838
+
 // Function Prototypes
 void ToString();
 void ToASCII();
@@ -29,6 +32,7 @@ int main()
     }
 }
 
+// Translate a message from ASCII to String using arrays
 void ToString()
 {
     int size;
@@ -61,6 +65,7 @@ void ToString()
     }
 }
 
+// Translate a message from String to ASCII using arrays
 void ToASCII()
 {
     int size;
