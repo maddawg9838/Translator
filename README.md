@@ -1,5 +1,5 @@
 # Translator
 Simple translator between ASCII and Strings
 
-Completed For Now! 6-13-23
+Completed For Now!
 Author: Maddawg9838
